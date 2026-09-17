@@ -27,7 +27,11 @@
   * **Razão Social:** Letty Gestão Comercial LTDA.
   * **Tempo de Atuação:** 1 ano e 6 meses.
   * **Responsável Operacional:** Ednilson (Representante Comercial).
-  * **Forma de Contato / Entrevista:** Entrevista técnica e levantamento de requisitos com o gestor comercial em setembro de 2026.
+  * **Forma de Contato:** Telefone: +55 11 99272-0925 / E-mail: ednilson2306@gmail.com
+  * **CNPJ:** 62.549.640/0001-02
+  * **Entrevista:** Entrevista técnica e levantamento de requisitos com o gestor comercial em setembro de 2026.
+  * **Fotos:** [![Foto1]](./foto1.png) [![Foto2]](./foto2.png)
+  
 
 ---
 
