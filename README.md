@@ -1,3 +1,4 @@
+Yuri Navas Moreira RGM: 47106131
 # Entrega 1 — Modelo Conceitual (DER)
 ### Modelagem de um sistema de gestão de informações para a Letty Gestão Comercial LTDA
 
