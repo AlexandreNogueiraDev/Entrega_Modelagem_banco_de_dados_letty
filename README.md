@@ -32,6 +32,7 @@
   6. **Ações Promocionais e Gestão de Validade:** Identificação de itens com baixo giro/proximidade do vencimento e aplicação de promoções para evitar perdas.
 
 *(Os fluxogramas dos processos chave serão disponibilizados em imagem/arquivo anexo no repositório)*
+[![Fluxograma]](./_Fluxograma.png)
 
 ---
 
