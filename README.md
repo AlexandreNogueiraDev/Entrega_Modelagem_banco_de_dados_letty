@@ -106,6 +106,7 @@
 ## 7. Diagrama Entidade-Relacionamento (DER)
 
 *(O Diagrama Entidade-Relacionamento [DER] encontra-se anexado separadamente como arquivo de imagem no repositório)*
+[![Dicionário de Dados]](./Dicionário_de_Dados_letty_quinta_Vs_2.1.pdf)
 
 ---
 
