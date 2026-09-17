@@ -1,4 +1,13 @@
-Yuri Navas Moreira RGM: 47106131
+## Metadados
+
+**Nomes dos alunos e RGM**
+
+- **Alexandre Almeida de Jesus Nogueira RGM: 47336480**
+- **Khevyn Lopes dos Santos RGM: 46985859**
+- **Luis Plinio Cornelio Mota  RGM: 47174081**
+- **Marcos Paulo Cornelio Mota  RGM: 46917462**
+- **Yuri Navas Moreira RGM: 47106131**
+
 # Entrega 1 — Modelo Conceitual (DER)
 ### Modelagem de um sistema de gestão de informações para a Letty Gestão Comercial LTDA
 
