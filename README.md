@@ -222,20 +222,20 @@ Entidade detentora dos produtos alimentícios e contratante da representação.
 ---
 
 - **Relacionamentos e Cardinalidades:**
-
-* **FABRICANTE para PROMOTOR (envia):** (1,n) - (1,n) — Um fabricante envia um ou vários promotores, e um promotor é enviado por um ou vários fabricantes.
-* **FABRICANTE para PRODUTO (fabrica):** (1,n) - (1,n) — Um fabricante fabrica um ou vários produtos, e um produto é fabricado por um ou vários fabricantes.
-* **FABRICANTE para PEDIDO (fecha):** (1,n) - (1,n) — Um fabricante fecha um ou vários pedidos, e um pedido é fechado por um ou vários fabricantes
-* **SUPER_MERCADO para LOJA (possui):** (1,n) - (1,n) — Uma rede de supermercado possui uma ou várias lojas, e uma loja pertence a uma ou várias redes.
-* **SUPER_MERCADO para CONTATO (tem):** (1,n) - (1,n) — Uma rede tem um ou vários contatos, e um contato pertence a uma ou várias redes.
-* **SUPER_MERCADO para PEDIDO (registra):** (1,n) - (1,n) — Uma rede registra um ou vários pedidos, e um pedido é registrado por uma ou várias redes.
-* **LOJA para CONTATO (possui):** (1,n) - (1,n) — Uma loja possui um ou vários contatos, e um contato está vinculado a uma ou várias lojas.
-* **LOJA para PEDIDO (destina-se a):** (1,n) - (1,n) — Um pedido destina-se a uma ou várias lojas, e uma loja recebe um ou vários pedidos.
-* **LOJA para VISITA (recebe):** (1,n) - (1,n) — Uma loja recebe uma ou várias visitas, e uma visita é realizada em uma ou várias lojas.
-* **PRODUTO para LOTE (possui):** (1,n) - (1,n) — Um produto possui um ou vários lotes, e um lote pertence a um ou vários produtos.
+  
+* **FABRICANTE para PROMOTOR (envia):** (1,n) - (0,n) — Um fabricante envia um ou vários promotores, e um promotor pode ser enviado por zero ou vários fabricantes.
+* **FABRICANTE para PRODUTO (fabrica):** (1,1) - (0,n) — Um produto pertence obrigatoriamente a um único fabricante, e um fabricante pode fabricar zero ou vários produtos.
+* **FABRICANTE para PEDIDO (fecha):** (1,1) - (0,n) — Um pedido refere-se a um único fabricante, e um fabricante pode fechar zero ou vários pedidos.
+* **SUPER_MERCADO para LOJA (possui):** (1,1) - (1,n) — Uma rede de supermercados possui uma ou várias lojas filiais, mas uma loja pertence obrigatoriamente a uma única rede matriz.
+* **SUPER_MERCADO para CONTATO (tem):** (1,1) - (0,n) — Uma rede tem um ou vários contatos corporativos, e um contato pertence a uma rede.
+* **SUPER_MERCADO para PEDIDO (registra):** (1,1) - (0,n) — Um pedido é registrado no âmbito de uma rede/loja compradora.
+* **LOJA para CONTATO (possui):** (0,1) - (0,n) — Uma loja pode possuir zero ou vários contatos locais (setores como recepção/fiscal).
+* **LOJA para PEDIDO (destina-se a):** (1,1) - (0,n) — Um pedido destina-se obrigatoriamente a uma única loja física de entrega, e uma loja pode receber zero ou vários pedidos.
+* **LOJA para VISITA (recebe):** (1,1) - (0,n) — Uma visita ocorre em uma única loja, e uma loja recebe zero ou várias visitas de auditoria.
+* **PRODUTO para LOTE (possui):** (1,1) - (0,n) — Um lote pertence obrigatoriamente a um único produto, e um produto pode possuir zero ou vários lotes de fabricação.
 * **PRODUTO para PEDIDO (contém):** (1,n) - (1,n) — Um produto compõe um ou vários pedidos, e um pedido contém um ou vários produtos.
-* **PRODUTO para VISITA (verifica):** (1,n) - (1,n) — Um produto é verificado em uma ou várias visitas, e uma visita verifica um ou vários produtos.
-* **PROMOTOR para VISITA (realiza):** (1,n) - (1,n) — Um promotor realiza uma ou várias visitas, e uma visita é realizada por um ou vários promotores.
+* **PRODUTO para VISITA (verifica):** (1,n) - (1,n) — Um produto é verificado em uma ou várias visitas, e uma visita verifica um ou vários produtos no PDV.
+* **PROMOTOR para VISITA (realiza):** (1,1) - (0,n) — Uma visita é realizada por um único promotor, e um promotor pode realizar zero ou várias visitas ao longo do mês.
   
 ---
 
