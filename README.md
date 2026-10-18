@@ -1,12 +1,12 @@
 ## Metadados
 
-**Nomes dos alunos e RGM**
+**Nomes dos alunos, RGM e usuário**
 
-- **Alexandre Almeida de Jesus Nogueira RGM: 47336480**
-- **Khevyn Lopes dos Santos RGM: 46985859**
-- **Luis Plinio Cornelio Mota  RGM: 47174081**
-- **Marcos Paulo Cornelio Mota  RGM: 46917462**
-- **Yuri Navas Moreira RGM: 47106131**
+- **Alexandre Almeida de Jesus Nogueira   RGM: 47336480**   ([`AlexandreNogueiraDev`](https://github.com/AlexandreNogueiraDev))
+- **Khevyn Lopes dos Santos   RGM: 46985859**   ([`KhevynEtec`](https://github.com/KhevynEtec))
+- **Luis Plinio Cornelio Mota   RGM: 47174081**   ([`Luis-Plinio`](https://github.com/Luis-Plinio))
+- **Marcos Paulo Cornelio Mota   RGM: 46917462**   ([`m-mota`](https://github.com/m-mota))
+- **Yuri Navas Moreira    RGM: 47106131**   ([`keynavas`](https://github.com/keynavas))
 
 # Entrega 1 — Modelo Conceitual (DER)
 ### Modelagem de um sistema de gestão de informações para a Letty Gestão Comercial LTDA
